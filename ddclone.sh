@@ -102,7 +102,7 @@ printf "${success}Drive ${source} has ${partitionSourceCount} partition(s),\n"
 printf "and has ${sourcecount} bytes on disk,\n"
 printf "and a clone size of ${sourcesize} bytes, starting clone momentarily...\n"
 
-printf "\n${info}Are you sure you want to clone drive ${target}? Y/N\n"
+printf "\n${info}Are you sure you want to clone source drive ${source} to target drive ${target}? Y/N\n"
 
 read confirm
 
